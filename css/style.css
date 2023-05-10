@@ -11,18 +11,23 @@
     z-index: 100;
 }
 
-.height-contain{
-    padding-top: 70px;
+.col200{
+    width: 200px;
 }
 
 
-.contenitore-sinistro{
+.width-row{
     background-color: blue;
-    height: calc(100vh - 70px);
+    width: 200px;
+    height: 100%;
     position: fixed;
 }
-.height{
-    height: 100vh;
+
+
+.col80{
+    width: calc(100% - 200px);
+    background-color: aqua;
+    padding-top: 70px;
 }
 
 

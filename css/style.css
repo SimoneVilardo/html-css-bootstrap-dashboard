@@ -3,3 +3,63 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.red{
+    background-color: red;
+    height: 70px;
+    position: fixed;
+    z-index: 100;
+}
+
+.height-contain{
+    padding-top: 70px;
+}
+
+
+.contenitore-sinistro{
+    background-color: blue;
+    height: calc(100vh - 70px);
+    position: fixed;
+}
+.height{
+    height: 100vh;
+}
+
+
+.green{
+    background-color: green;
+    height: 200px;
+}
+
+.yellow{
+    background-color: yellow;
+    height: 150px;
+}
+
+
+.grey{
+    background-color: grey;
+    height: calc(100vh - 70px);
+}
+
+.pink{
+    background-color: pink;
+    height: calc(100vh - 70px);
+}
+
+.purple{
+    background-color: purple;
+    height: 80px;
+}
+.acqua, .lightgrey{
+    border: 1px solid black;
+}
+.acqua{
+    background-color: aqua;
+    height: 300px;
+}
+
+.lightgrey{
+    background-color: lightgray;
+    height: 100px;
+}

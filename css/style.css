@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-
+/* INIZIO HEADER */
 .red{
     background-color: #fff;
     width: 100%;
@@ -13,68 +13,13 @@
     height: 70px;
 }
 
-#dimension-logo{
-    width: 110%;
+.dimension-logo{
+    width: 100px ;
 }
 
-.col200{
-    width: 200px;
+.dimension-logo-small{
+    width: 40px;
 }
-
-
-.width-row{
-    background-color: blue;
-    width: 200px;
-    height: 100%;
-    position: fixed;
-}
-
-
-.col80{
-    width: calc(100% - 200px);
-    background-color: aqua;
-    padding-top: 70px;
-}
-
-
-.green{
-    background-color: green;
-    height: 200px;
-}
-
-.yellow{
-    background-color: yellow;
-    height: 150px;
-}
-
-
-.grey{
-    background-color: grey;
-    height: calc(100vh - 70px);
-}
-
-.pink{
-    background-color: pink;
-    height: calc(100vh - 70px);
-}
-
-.purple{
-    background-color: purple;
-    height: 80px;
-}
-.acqua, .lightgrey{
-    border: 1px solid black;
-}
-.acqua{
-    background-color: aqua;
-    height: 300px;
-}
-
-.lightgrey{
-    background-color: lightgray;
-    height: 100px;
-}
-
 
 .back-input{
     background-color: lightgray;
@@ -95,4 +40,106 @@
     pointer-events: none;
     color: #aaa;
 }
+/* FINE HEADER */
+
+/* INIZIO MAIN */
+
+.ul-sidebar{
+    list-style-type: none;
+    color: #fff;
+    padding: 0;
+}
+
+.col-200{
+    width: 170px;
+}
+
+
+.width-row{
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #051e34;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 170px;
+    height: calc(100vh - 70px);
+    margin-top: 70px;
+}
+
+.recap {
+    background-color: #1B72E8;
+    color: white;
+}
+
+
+.recap .badge {
+    background-color: #155ab9;
+    color: white;
+}
+
+.dashboard .offcanvas {
+    width: 100%;
+}
+.ul-sidebar li.p-2:hover {
+    background-color: rgba(255, 255, 255, .25);
+    cursor: pointer;
+}
+
+
+.col-80{
+    width: calc(100% - 170px);
+    height: calc(100vh - 75px);
+    background-color: #fff;
+    margin-top: 70px;
+    overflow-y: auto;
+}
+
+.class__img img {
+    width: 30px;
+}
+
+.dashboard .card-header {
+    font-weight: 700;
+    font-size: 1.5rem;
+} 
+
+.card-body .list-group-item .form-check-label {
+    font-size: 15px;
+}
+
+.card-header {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.recap-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.font-h6-sidebar{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* FINE DETTAGLI *
+
+/* FINE MAIN */
+
+
+
+/* MEDIA QUERY TABLET */
+
+@media screen and (max-width:991px) {
+    .width-row , .col-200{
+        width: 70px;
+    }
+
+    .col-80{
+        width: calc(100% - 70px);
+    }
+    
+}
+
+/* FINE MEDIA QUERY TABLET */
+
 

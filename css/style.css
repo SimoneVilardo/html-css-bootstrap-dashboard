@@ -126,7 +126,9 @@
 
 /* FINE MAIN */
 
-
+.offcanvas.offcanvas-end.off-width{
+    width: 50%;
+}
 
 /* MEDIA QUERY TABLET */
 
@@ -137,6 +139,10 @@
 
     .col-80{
         width: calc(100% - 70px);
+    }
+
+    .offcanvas.offcanvas-end.off-width{
+        width: 100%;
     }
     
 }

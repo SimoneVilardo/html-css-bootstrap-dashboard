@@ -84,6 +84,15 @@
     cursor: pointer;
 }
 
+.recap-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.font-h6-sidebar{
+    font-size: 30px;
+    font-weight: 600;
+}
 
 .col-80{
     width: calc(100% - 170px);
@@ -93,7 +102,7 @@
     overflow-y: auto;
 }
 
-.class__img img {
+.class-img img {
     width: 30px;
 }
 
@@ -111,15 +120,7 @@
     font-weight: 700;
 }
 
-.recap-title{
-    font-size: 40px;
-    font-weight: 600;
-}
 
-.font-h6-sidebar{
-    font-size: 30px;
-    font-weight: 600;
-}
 
 /* FINE DETTAGLI *
 
